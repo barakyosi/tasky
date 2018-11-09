@@ -4,6 +4,11 @@ My personal place to experiment react &amp; handle my tasks
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+## Instalation
+
+1. Run `npm install`
+2. Rename `src/apiKeys.template.js` to `src/apiKeys.js` and fill API keys.
+
 ## Available Scripts
 
 In the project directory, you can run:
