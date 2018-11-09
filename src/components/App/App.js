@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './App.css';
-import firebase from './firebase';
+import firebase from '../../helpers/firebase';
 
 class App extends Component {
     constructor(props) {
@@ -35,7 +35,7 @@ class App extends Component {
     render() {
         return (
             <div className="App">
-                <header className="App-header">
+                <header className="App__header">
                     <p>
                         Hello Tasky!
                     </p>
