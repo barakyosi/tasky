@@ -7,7 +7,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 ## Instalation
 
 1. Run `npm install`
-2. Rename `apiKeys.template.js` to `apiKeys.js` and fill API keys.
+2. Rename `src/apiKeys.template.js` to `src/apiKeys.js` and fill API keys.
 
 ## Available Scripts
 
