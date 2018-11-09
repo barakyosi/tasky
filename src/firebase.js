@@ -1,15 +1,15 @@
-import config from './config';
+import apiKeys from '../apiKeys';
 import firebase from 'firebase/app';
 import 'firebase/app';
 import 'firebase/firestore';
 
 const firebaseConfig = {
-    apiKey: config.firebase.apiKey,
-    authDomain: config.firebase.authDomain,
-    databaseURL: config.firebase.databaseURL,
-    projectId: config.firebase.projectId,
-    storageBucket: config.firebase.storageBucket,
-    messagingSenderId: config.firebase.messagingSenderId
+    apiKey: apiKeys.firebase.apiKey,
+    authDomain: apiKeys.firebase.authDomain,
+    databaseURL: apiKeys.firebase.databaseURL,
+    projectId: apiKeys.firebase.projectId,
+    storageBucket: apiKeys.firebase.storageBucket,
+    messagingSenderId: apiKeys.firebase.messagingSenderId
 
 };
 const fire = firebase.initializeApp(firebaseConfig);
